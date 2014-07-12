@@ -1,0 +1,38 @@
+html { 
+  background: url(../assets/mountain_landscape.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.spacing__container {
+	height: 1px;
+}
+
+.nav__container {
+	text-align: center;
+}
+
+.nav__work{
+	vertical-align: center;
+}
+
+.img__container {
+	width:inherit;
+	vertical-align: middle;
+}
