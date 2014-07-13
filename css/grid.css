@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.spacing__container {
+	height: 1px;
+}
+
 
 /* Add gutter*/
 [class*='col-'] {
@@ -15,12 +19,12 @@
 }
 
 /* Add outside gutter */
-.grid-pad {
-	padding: 20px 0px 20px 20px;
+.grid_pad {
+	padding: 24px 0px 24px 24px;
 }
 
-.grid-pad > [class*='col-']:last-of-type {
-	padding-right: 20px
+.grid_pad > [class*='col-']:last-of-type {
+	padding-right: 24px
 }
 
 /* Float all colums left */

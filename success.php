@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -6,8 +7,8 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>
 </head>
 <body class="grid">
 	<header class='site_header grid'>
@@ -29,9 +30,14 @@
 	</header>
 
 	<main class="grid">
-		<div class="img__container col-1-1">
-			<img src="assets/0001_Logo_AN_07.png" alt="AN Logo" class="logo--main_page">
-		</div>
+		<h1 class="main__title col-1-1">Success</h1>
+		<div class="spacing__container grid col-2-8"></div>
+		<section class="contact__container container__background grid col-4-8" >
+			<div class="grid grid_pad">
+				<h3>Thank you <?php echo $_POST["name"];?> for your message</h3>
+			</div> 			
+		</section>	
+		<div class="spacing__container grid col-2-8"></div>
 	</main>
 
 	<footer class='site_footer grid grid_pad'>

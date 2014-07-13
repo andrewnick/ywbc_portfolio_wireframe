@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 html { 
   background: url(../assets/mountain_landscape.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -8,6 +13,14 @@ html {
 
 body {
 	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
+
+p {
+	font-size: 16px;
+	margin-top: -6px;
+	margin-bottom: 24px;
+	line-height: 1.5;
 }
 
 h1,
@@ -16,23 +29,170 @@ h3,
 h4,
 h5 {
 	font-family: 'Josefin Sans', sans-serif;
-	margin: 0px;
-	padding: 0px;
 }
 
-.spacing__container {
-	height: 1px;
+h1 {
+	font-size: 36px;
+	line-height: 48px;
+	margin-bottom: 24px;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 48px;
+	margin-bottom: 24px;
+}
+
+h3 {
+	font-size: 22px;
+	line-height: 24px;
+	margin-bottom: 24px;
+}
+
+h4 {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 24px;
+}
+
+.details__container > h4 {
+	margin-bottom: 0px;
+}
+
+.container__background {
+	background-color:rgba(255,255,255,0.2);
+	border-radius: 5px;
+}
+
+.site_header {
+	background-color: #081121;
+	height: 120px;
+}
+
+.home_link {
+	text-decoration: none;
+	color: white;
+}
+
+.name__container {
+	margin: 0 auto;
+	padding-left: 48px;
+}
+
+.name {
+	font-variant: small-caps;
+}
+
+.main__title {
+	padding: 24px;
+	font-size: 42px;
+	font-variant: small-caps;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.work__container {
+	margin: 0 auto;
+}
+
+.work__article__img {
+	border-radius: 7px;
+}
+
+.work__article__link {
+	width: 264px;
+	margin: 0 auto;
+}
+
+.work__article__text {
+	margin: auto;
+	width: 264px;
+
 }
 
 .nav__container {
 	text-align: center;
 }
 
-.nav__work{
+.nav__button{
+	font-variant: small-caps;
+	text-decoration: none;
 	vertical-align: center;
+	color: white;
+}
+
+.nav__button:hover{
+	color: #c7b8a5;
 }
 
 .img__container {
-	width:inherit;
+	height: 700px;
+}
+
+.details__container {
+	margin: 0;
+}
+
+.contact__form__text {
+	text-align: right;
+	padding-right: 24px;
+}
+
+.contact__button {
+	text-align: center;
+}
+
+.contact__button {
+	height: 48px;
+	border: none;
+	border-radius: 5px;
+	font-size: 30px;
+	line-height: 48px;
+	color: white;
+	background-color: #7da1df;
+}
+
+.contact__button:hover {
+	background-color: #214583;
+}
+
+.contact__input {
+	padding: 8px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	line-height: 24px;
+	height: 48px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.contact__input--multiline {
+	height: 240px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.about__video {
+	margin: 0 auto;
+}
+
+.about__text {
+	padding-bottom: 0px;
+}
+
+.logo--main_page {
+	display: block;
 	vertical-align: middle;
+	margin: 150px auto;
+}
+
+.site_footer{
+	width: 100%;
+	margin-top: 24px;
+	background-color: #081121;
+	height: 96px;
+}
+
+.link_text{
+	text-decoration: none;	
+	color: #7da1df;
 }
