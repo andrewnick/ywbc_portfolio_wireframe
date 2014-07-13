@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>
+</head>
+<body class="grid">
+	<header class='site_header grid grid-pad'>
+		<div class="name__container col-2-8">
+			<h1 class="name"><a href='index.html' class="home_link">Andrew Nicholas</a></h1>
+		</div>
+		<div class="spacing__container col-3-8"></div>
+		<nav class="nav__container">
+			<div class="nav__button col-1-8">
+				<h2><a href='work.html' class="nav__button">Work</a></h2>
+			</div>
+			<div class="nav__button col-1-8">
+				<h2><a href='about.html' class="nav__button">About</a></h2>
+			</div>
+			<div class="nav__button col-1-8">
+				<h2><a href='contact.html' class="nav__button">Contact</a></h2>
+			</div>	
+		</nav>		
+	</header>
+
+	<main class="grid">
+		<h2 class="main__title col-1-1">CONTACT</h2>
+		<div class="spacing__container grid col-1-4"></div>
+			<section class="contact__container container__background grid col-2-4" >
+				<p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio animi debitis natus repellendus enim cupiditate, commodi fugiat libero, eligendi rem sunt nostrum, dolorem neque odio officiis perspiciatis sed, ipsa a.</p>
+
+				<form action='contact.php' method="get" class="contact grid grid-pad">
+
+					<div class="row grid grid-pad">
+						<h4 class="contact__text col-2-8 grid">Name:</h4>
+						<input type="text" name='name' class="contact__input contact__input--name col-3-8 grid">
+					</div>
+
+					<div class="row grid grid-pad">
+						<h4 class="contact__text col-2-8 grid">Email:</h4>
+						<input type="text" name='email' class="contact__input contact__input--email col-3-8 grid"> 
+					</div>
+
+					<div class="row grid grid-pad">
+						<h4 class="contact__text col-2-8 grid"> Message:</h4>
+						<textarea name="message" class="contact__input contact__input--multiline col-3-8 grid"></textarea>
+						<div class="spacing__container grid col-3-8"></div>				
+					</div>
+					<div class="row grid grid-pad">
+						<div class="spacing__container grid col-3-8"></div>
+						<div class="contact__button__container grid grid-pad col-2-8">
+							<input type="submit" class="contact__button" value="Send">
+						</div>	
+					</div>
+
+				</form>				
+			</section>	
+		<div class="spacing__container grid col-1-4"></div>
+	</main>
+
+	<footer class='site_footer grid grid-pad'>
+		<div class="details__container col-1-8">
+			<h3 class="">Andrew Nicholas</h3>
+			<h3 class=""><a class="link_text" href="mailto:andrew.d.nicholas@gmail.com" target="_top"> andrew.d.nicholas@gmail.com </a></h3>
+		</div>
+	</footer>
+</body>
+</html>
