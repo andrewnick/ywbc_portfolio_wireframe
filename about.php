@@ -12,18 +12,18 @@
 <body class="grid">
 	<header class='site_header grid'>
 		<div class="name__container grid grid_pad col-2-8">
-			<h1 class="name"><a href='index.html' class="home_link">Andrew Nicholas</a></h1>
+			<h1 class="name"><a href='index.php' class="home_link">Andrew Nicholas</a></h1>
 		</div>
 		<div class="spacing__container col-3-8"></div>
 		<nav class="nav__container grid grid_pad col-3-8">
 			<div class="nav__button col-1-3">
-				<h2><a href='work.html' class="nav__button">Work</a></h2>
+				<h2><a href='work.php' class="nav__button">Work</a></h2>
 			</div>
 			<div class="nav__button col-1-3">
-				<h2><a href='about.html' class="nav__button">About</a></h2>
+				<h2><a href='about.php' class="nav__button">About</a></h2>
 			</div>
 			<div class="nav__button col-1-3">
-				<h2><a href='contact.html' class="nav__button">Contact</a></h2>
+				<h2><a href='contact.php' class="nav__button">Contact</a></h2>
 			</div>	
 		</nav>		
 	</header>
